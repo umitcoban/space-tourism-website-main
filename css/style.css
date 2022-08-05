@@ -1,0 +1,344 @@
+body{
+    background-color: #0B0D17;
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: serif;
+}
+h1{
+    font-family: "Bellefair", serif;
+    font-size: 9.375rem;
+    color:#FFFFFF;
+}
+h2{
+    font-family: "Bellefair",serif;
+    font-size: 6.25rem;
+    color: #FFFFFF;
+}
+h3{
+    font-family: "Bellefair",serif;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+}
+h4{
+    font-family: "Bellefair",serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+h5{
+    font-family: "Bellefair",serif;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+}
+.sub-heading-1{
+    font-family:"Bellefair",serif;
+    font-size: 1.75rem;
+}
+.sub-heading-2{
+    font-family:"Barlow Codensed",serif;
+    font-size: 0.875rem;
+    letter-spacing: 2.35px;
+}
+
+.nav-text{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2.7px;
+    display: inline-block;
+    color: #FFFFFF;
+    right: 30px;
+    top:35px;
+    position: absolute;
+    text-decoration: none;
+
+}
+
+.nav-text:hover{
+    border-bottom:  #ffffff71;
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    padding-bottom: 25px;
+}
+
+.nav-text-active{
+    border-bottom:  #ffffff;
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    padding-bottom: 25px;
+}
+.nav-bar{
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+div.nav-bar img.logo{
+    padding-left: 50px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+   
+}
+div.nav-bar a.menu-links-home{
+    right: 400px;
+}
+div.nav-bar a.menu-links-destination{
+    right: 280px;
+}
+div.nav-bar a.menu-links-crew{
+    right: 200px;
+}
+div.nav-bar a.menu-links-technology{
+    right: 80px;
+}
+.nav-hr{
+    width: 30%;
+    position: absolute;
+    top: 35px;
+    left: 200px;
+    background-color: transparent;
+    border-style: none;
+    border-width: 1px;
+    border-color: #666768;
+    border-top-style: solid;
+}
+div.main-container{
+    width: 40%;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+.right-main-container{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    display:inline;
+    top:180px;
+    right: 100px;
+    height: 100px;
+    
+}
+div.main-container div.intro-container h5.h5-intro-header{
+    text-align: left;
+}
+div.explore-container{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top:450px;
+    right: 100px;
+
+}
+div.explore-container:hover{
+    box-shadow: 0 0 0 35px #d0d6f99d;
+    cursor: pointer;
+}
+div.main-container div.explore-container p.p-explore{
+  font-family:"Barlow Codensed",serif;
+  font-weight: normal;
+  font-size: 2.8rem;
+  margin: 100px auto 0 auto;
+  letter-spacing: 3px;
+}
+div.main-container span.span-select-destination{
+    color: grey;
+}
+.link-moon{
+    margin-right: 400px;
+}
+.link-mars{
+    margin-right: 300px;
+}
+.link-europa{
+    margin-right: 200px;
+}
+.link-titan{
+    margin-right: 100px;
+}
+.h2-destination{
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.h5-destination{
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 2;
+    letter-spacing: 1.2px;
+}
+div.right-main-container .nav-hr{
+    top:500px;
+    left: 0px;
+    width: 100%;
+    border-width:1px
+}
+.footer-description-modal{
+    margin-left: 0px;
+    text-align: left;
+}
+.footer-dest-colon{
+    display: inline-block;
+    position: absolute;
+}
+.first-footer-colon{
+    top:475px;
+}
+.second-footer-colon{
+    top:475px;
+    left: 300px;
+}
+.first-footer-row{
+    top:545px;
+}
+.second-footer-row{
+    top:545px;
+    left: 310px;
+}
+.left-container-header{
+    top: 160px;
+    position: absolute;
+    left: 150px;
+    padding-bottom: 100px;
+    letter-spacing: 2.5px;
+}
+.left-container-second-header{
+    top: 360px;
+    position: absolute;
+    left: 150px;
+    padding-bottom: 100px;
+    color: #666768;
+    letter-spacing: 2.7px;
+}
+.left-container-third-header{
+    top: 400px;
+    position: absolute;
+    left: 150px;
+    padding-bottom: 100px;
+}
+.left-container-p{
+    top: 550px;
+    line-height: 2;
+    position: absolute;
+    left: 150px;
+    color: #ffffff;
+    text-align: left;
+    font-family:"Barlow Codensed",serif;
+    font-weight: normal;
+    width: 40%;
+    letter-spacing: 3px;
+}
+.left-container-img{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+.left-container-nav{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #666768;
+    position: absolute;
+    left: 150px;
+    top: 770px;
+}
+.left-container-nav-commander{
+    left: 150px;
+}
+.left-container-nav-specialist{
+    left: 250px;
+}
+.left-container-nav-pilot{
+    left: 350px;
+}
+.left-container-nav-engineer{
+    left: 450px;
+}
+.left-container-nav:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 5px #d0d6f99d;
+    cursor:pointer;
+}
+.left-container-nav-active{
+    background-color: #FFFFFF;
+}
+.right-container-img{
+    padding-left: 75px;
+}
+
+div.tech-main-container .left-container-second-header{
+    top: 360px;
+    position: absolute;
+    left: 250px;
+    padding-bottom: 100px;
+    color: #666768;
+    letter-spacing: 2.7px;
+}
+div.tech-main-container .left-container-third-header{
+    top: 400px;
+    position: absolute;
+    left: 250px;
+    padding-bottom: 100px;
+}
+div.tech-main-container .left-container-p{
+    top: 550px;
+    line-height: 2;
+    position: absolute;
+    left: 250px;
+    color: #ffffff;
+    text-align: left;
+    font-family:"Barlow Codensed",serif;
+    font-weight: normal;
+    width: 40%;
+    letter-spacing: 3px;
+}
+div.tech-main-container .left-container-nav{
+    border-radius: 50%;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    font-family:"Barlow Codensed",serif;
+    font-size: 2rem;
+}
+.left-container-nav-tech-active{
+    border-color: black!important;
+    border-style: solid!important;
+    background-color: #ffffff!important;
+}
+.left-container-nav-tech-active .tech-nav-p{
+    color: #666768!important;
+}
+.left-container-nav-vehicle{
+    left: 120px;
+    top: 400px;
+    height: 60px;
+    width: 60px;
+}
+.left-container-nav-spaceport{
+    left: 120px;
+    top: 550px;
+    height: 60px;
+    width: 60px;
+}
+.left-container-nav-capsule{
+    left: 120px;
+    top: 690px;
+    height: 60px;
+    width: 60px;
+}
+.tech-nav-p{
+    margin: 10px auto 10px auto;
+    color: #ffffff;
+}
+
+.tech-right-container .right-container-img{
+    position: absolute;
+    right: -80px;
+    top:20px;
+    width: 90%;
+    height: 600%;
+}
